@@ -1,3 +1,3 @@
 # Spark 
 
-Mostly used Spark code .
+Spark Code Hints.
