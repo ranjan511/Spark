@@ -1,0 +1,15 @@
+Conversion from ml vector to mllib Vector
+
+val denseVector = r.getAs[org.apache.spark.ml.linalg.SparseVector]("features").toDense
+  org.apache.spark.mllib.linalg.Vectors.fromML(denseVector)
+  
+  Example:
+   val rddOfVectors = df.select("features").rdd
+      .map {
+        row =>
+          {
+            val denseVector = row.getAs[org.apache.spark.ml.linalg.SparseVector]("features").toDense
+            org.apache.spark.mllib.linalg.Vectors.fromML(denseVector)
+          }
+          
+          }
