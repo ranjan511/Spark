@@ -1,0 +1,14 @@
+
+The central premise when using a feature selection technique is that the data contains many features that are either 
+redundant or irrelevant, and can thus be removed without incurring much loss of information.
+Redundant or irrelevant features are two distinct notions, since one relevant feature may be redundant in 
+the presence of another relevant feature with which it is strongly correlated.
+
+Feature selection techniques should be distinguished from feature extraction.
+Feature extraction creates new features from functions of the original features, 
+whereas feature selection returns a subset of the features. Feature selection techniques are often used in 
+domains where there are many features and comparatively few samples (or data points).
+
+
+Source:
+https://en.wikipedia.org/wiki/Feature_selection
