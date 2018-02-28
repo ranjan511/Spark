@@ -1,0 +1,2 @@
+Get metaData of DataFrame.
+val metaData:Array[StructField] = df.schema.fields
