@@ -1,2 +1,3 @@
 Get metaData of DataFrame.
-val metaData:Array[StructField] = df.schema.fields
+1. val metaData:Array[StructField] = df.schema.fields # field name and type
+2. val array[caseClass] = df.as[CaseClass].collect() # get dataframe row as array of caseClass object 
